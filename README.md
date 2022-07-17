@@ -1,0 +1,1 @@
+# detekt-sec-bugs
