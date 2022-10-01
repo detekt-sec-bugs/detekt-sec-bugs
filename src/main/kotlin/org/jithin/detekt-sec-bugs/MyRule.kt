@@ -21,7 +21,7 @@ class MyRule(config: Config) : Rule(config) {
         super.visitClass(klass)
 
         if (klass.isInner()) {
-            report(CodeSmell(issue, Entity.atName(klass), "Custom message"))
+            report(CodeSmell(issue, Entity.atName(klass), "Test for a sample rule"))
         }
     }
 }
